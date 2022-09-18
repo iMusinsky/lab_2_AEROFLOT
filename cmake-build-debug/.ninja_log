@@ -1,0 +1,9 @@
+# ninja log v5
+1	1135	6852416847531186	CMakeFiles/tp_2_lab_2.dir/main.cpp.obj	f647441e656affcb
+16	1137	6852416847531186	CMakeFiles/tp_2_lab_2.dir/AEROFLOT.cpp.obj	c78af22ae20bc2f
+6	517	6852417149935443	CMakeFiles/tp_2_lab_2.dir/AeroflotUI.cpp.obj	66d069d9db1cc0fa
+518	781	6852417152536089	tp_2_lab_2.exe	53179ce4a814f263
+5	596	6852418090798617	CMakeFiles/tp_2_lab_2.dir/AEROFLOT.cpp.obj	c78af22ae20bc2f
+596	698	6852418091788792	tp_2_lab_2.exe	53179ce4a814f263
+3	617	6852431621917731	CMakeFiles/tp_2_lab_2.dir/AeroflotUI.cpp.obj	66d069d9db1cc0fa
+617	733	6852431623047910	tp_2_lab_2.exe	53179ce4a814f263

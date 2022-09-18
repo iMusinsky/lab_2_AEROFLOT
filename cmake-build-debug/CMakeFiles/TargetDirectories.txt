@@ -1,0 +1,3 @@
+C:/Users/UserPC/CLionProjects/tp_2_lab_2/cmake-build-debug/CMakeFiles/tp_2_lab_2.dir
+C:/Users/UserPC/CLionProjects/tp_2_lab_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/UserPC/CLionProjects/tp_2_lab_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
