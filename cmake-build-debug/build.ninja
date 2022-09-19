@@ -67,6 +67,12 @@ build CMakeFiles/tp_2_lab_2.dir/AeroflotUI.cpp.obj: CXX_COMPILER__tp_2_lab_2_Deb
   OBJECT_DIR = CMakeFiles\tp_2_lab_2.dir
   OBJECT_FILE_DIR = CMakeFiles\tp_2_lab_2.dir
 
+build CMakeFiles/tp_2_lab_2.dir/check.cpp.obj: CXX_COMPILER__tp_2_lab_2_Debug C$:/Users/UserPC/CLionProjects/tp_2_lab_2/check.cpp || cmake_object_order_depends_target_tp_2_lab_2
+  DEP_FILE = CMakeFiles\tp_2_lab_2.dir\check.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\tp_2_lab_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\tp_2_lab_2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target tp_2_lab_2
@@ -75,7 +81,7 @@ build CMakeFiles/tp_2_lab_2.dir/AeroflotUI.cpp.obj: CXX_COMPILER__tp_2_lab_2_Deb
 #############################################
 # Link the executable tp_2_lab_2.exe
 
-build tp_2_lab_2.exe: CXX_EXECUTABLE_LINKER__tp_2_lab_2_Debug CMakeFiles/tp_2_lab_2.dir/main.cpp.obj CMakeFiles/tp_2_lab_2.dir/AEROFLOT.cpp.obj CMakeFiles/tp_2_lab_2.dir/AeroflotUI.cpp.obj
+build tp_2_lab_2.exe: CXX_EXECUTABLE_LINKER__tp_2_lab_2_Debug CMakeFiles/tp_2_lab_2.dir/main.cpp.obj CMakeFiles/tp_2_lab_2.dir/AEROFLOT.cpp.obj CMakeFiles/tp_2_lab_2.dir/AeroflotUI.cpp.obj CMakeFiles/tp_2_lab_2.dir/check.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\tp_2_lab_2.dir

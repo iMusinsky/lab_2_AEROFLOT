@@ -5,6 +5,7 @@
 #ifndef TP_2_LAB_2_AEROFLOT_H
 #define TP_2_LAB_2_AEROFLOT_H
 #include <iostream>
+#include "check.h"
 
 class AEROFLOT {
 private:
@@ -14,13 +15,13 @@ private:
 
 public:
     AEROFLOT();
-    AEROFLOT(const AEROFLOT& copy);
+    AEROFLOT(const AEROFLOT& copy) noexcept;
 
-    char* get_destination();
-    unsigned int get_flight_number();
-    char* get_aircraft_type();
+    char* get_destination() noexcept;
+    unsigned int get_flight_number() noexcept;
+    char* get_aircraft_type() noexcept;
 
-    void show();
+    void show() noexcept;
 
 };
 

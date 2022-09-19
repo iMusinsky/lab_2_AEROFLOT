@@ -10,9 +10,10 @@ AEROFLOT::AEROFLOT() {
     if(!*destination)
         throw "Incorrect input";
 
-    //TODO: add an exception
     std::cout << "Flight number: ";
-    std::cin >> flight_number;
+    flight_number = get_int();
+    if(flight_number <= 0)
+        throw "Incorrect input";
 
     std::cout << "Aircraft type: ";
     std::cin >> aircraft_type;
@@ -20,7 +21,7 @@ AEROFLOT::AEROFLOT() {
         throw "Incorrect input";
 }
 
-AEROFLOT::AEROFLOT(const AEROFLOT &copy) {
+AEROFLOT::AEROFLOT(const AEROFLOT &copy) noexcept{
     for (int i = 0; copy.destination[i] != '\0'; ++i) {
         this->destination[i] = copy.destination[i];
     }
@@ -30,19 +31,19 @@ AEROFLOT::AEROFLOT(const AEROFLOT &copy) {
     }
 }
 
-char* AEROFLOT::get_destination() {
+char* AEROFLOT::get_destination() noexcept{
     return destination;
 }
 
-unsigned int AEROFLOT::get_flight_number() {
+unsigned int AEROFLOT::get_flight_number() noexcept{
     return flight_number;
 }
 
-char* AEROFLOT::get_aircraft_type() {
+char* AEROFLOT::get_aircraft_type() noexcept{
     return aircraft_type;
 }
 
-void AEROFLOT::show() {
+void AEROFLOT::show() noexcept{
     std::cout << "Destination: " << destination << std::endl;
     std::cout << "Flight number: " << flight_number << std::endl;
     std::cout << "Aircraft type: " << aircraft_type << std::endl;
